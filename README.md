@@ -46,4 +46,6 @@ Para finalizar el laboratorio se prepararon los datos de prueba eliminando la co
 
 # ¿Afecta los resultados?
 
-Sí puede afectar, porque al cambiar ese valor algunos resultados pueden pasar de 0 a 1 o de 1 a 0.
+Sí afecta los resultados porque al cambiar el valor de referencia, algunas predicciones pueden cambiar de 0 a 1 o de 1 a 0.
+
+
