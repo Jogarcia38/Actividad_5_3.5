@@ -32,3 +32,18 @@ En esta etapa del laboratorio se revisaron los datos de prueba para conocer su e
 
 ![Evidencia 1](Pantallazos/Imagen%203.5.7.png)
 
+Posteriormente se utilizó el modelo XGBoost implementado para realizar una predicción con los datos de prueba y comprobar el resultado obtenido; seguidamente se comparó la predicción con los valores disponibles en el conjunto de prueba para verificar su funcionamiento y, por último, se eliminó el punto de enlace creado en Amazon SageMaker, con el fin de terminar correctamente el uso del modelo desplegado.
+
+# Paso 4: Realizar una transformación por lotes
+
+![Evidencia 1](Pantallazos/Imagen%203.5.8.png)
+
+![Evidencia 1](Pantallazos/Imagen%203.5.9.png)
+
+![Evidencia 1](Pantallazos/Imagen%203.5.10.png)
+
+Para finalizar el laboratorio se prepararon los datos de prueba eliminando la columna objetivo y guardándolos en un archivo CSV para realizar una transformación por lotes; seguidamente, el archivo se almacenó en Amazon S3 y se configuró el modelo XGBoost en Amazon SageMaker para procesar todos los registros, con el fin de obtener las predicciones de forma conjunta. Por último, se descargaron los resultados generados, se convirtieron las probabilidades obtenidas en valores de 0 o 1 y se compararon con los datos de prueba originales para revisar los resultados del modelo.
+
+# ¿Afecta los resultados?
+
+Sí puede afectar, porque al cambiar ese valor algunos resultados pueden pasar de 0 a 1 o de 1 a 0.
