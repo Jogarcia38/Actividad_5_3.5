@@ -25,3 +25,10 @@ A continuación se utilizaron los datos de entrenamiento y validación previamen
 ![Evidencia 1](Pantallazos/Imagen%203.5.5.png)
 
 ![Evidencia 1](Pantallazos/Imagen%203.5.6.png)
+
+En esta etapa del laboratorio se revisaron los datos de prueba para conocer su estructura y seleccionar los valores que se utilizarían en la evaluación, asimismo se preparó una fila excluyendo la columna class y se convirtió al formato requerido para enviarla al modelo XGBoost alojado en Amazon SageMaker, con el fin de realizar una predicción, donde se obtuvo el resultado generado por el modelo.
+
+# Paso 3: Terminar el modelo implementado
+
+![Evidencia 1](Pantallazos/Imagen%203.5.7.png)
+
